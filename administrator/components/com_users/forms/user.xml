@@ -3,10 +3,12 @@
 	<fieldset name="user_details">
 		<field
 			name="name"
-			type="text"
+			type="time"
 			label="COM_USERS_USER_FIELD_NAME_LABEL"
 			required="true"
 			size="30"
+			min="08:00"
+			max="15:00"
 		/>
 
 		<field
